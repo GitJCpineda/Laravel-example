@@ -24,7 +24,8 @@ class ResumeController extends Controller
      */
     public function create()
     {
-        //
+        $data = 'test';
+        return view('resumes.create',['data'=>$data]);
     }
 
     /**
